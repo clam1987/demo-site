@@ -198,3 +198,11 @@
   order: 0;
   flex-grow: 0;
 }
+
+#legal-body {
+  font-size: small;
+}
+
+.list {
+  list-style-type: none;
+}
