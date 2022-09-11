@@ -206,3 +206,48 @@
 .list {
   list-style-type: none;
 }
+
+@media only screen and (min-width: 601px)  {
+  .logo-center {
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
+  }
+
+  .img-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .el-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-full {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .el-full {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .reverse-row {
+    flex-direction: row-reverse;
+  }
+
+  .half-bar {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .full-drawer {
+    max-width: 100%;
+    width: 100% !important;
+  }
+}
